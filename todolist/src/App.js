@@ -1,10 +1,12 @@
-import ImageDisplayer from "./ImageDisplayer";
+import InputContainer from "./components/InputContainer";
+import TaskContainer from "./components/TaskContainer";
+
 function App(){
 
   return (
-    <div>
-      <h1>this is My heading</h1>
-      <ImageDisplayer/>
+    <div style={{backgroundColor:"blue", width:'400px', height:"500px", margin:"auto",marginTop:"100px"}}>
+        <InputContainer/>
+        <TaskContainer/>
     </div>
   
   )
