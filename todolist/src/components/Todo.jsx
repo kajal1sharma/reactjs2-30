@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 const Todo = () => {
+  let arr =["one ", "two "]
+  let obj ={name:"nita", place:"delhi"}
     let inputval="";
     const [taskList , setTaskList] = useState([])
   return (
