@@ -6,9 +6,17 @@ class Calculator extends React.Component{
         super(props);
         this.number1 = 0;
         this.number2 = 0;
-        this.state={result:0}
+        this.result = 0;
+        this.state={result:0}//as state
     }
 
+    print(){
+
+    }
+    read(){
+
+    }
+    // JSX return 
     render(){
         return <div>
             <h1>Calculator</h1>
